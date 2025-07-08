@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./logo.png">
+  <title>Gradient Cube</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
+    <div class="w-12 h-12 border-4 border-black border-t-transparent rounded-full animate-spin"></div>
+  </div>
+
+  <!-- Canvas -->
+  <canvas id="canvas"></canvas>
+
+  <!-- Footer -->
+  <footer
+    class="absolute bottom-0 left-0 w-full z-20 flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 py-4 text-sm text-black font-['Figtree'] gap-4 md:gap-0 mb-4 md:mb-0">
+    <div class="flex flex-col md:flex-row md:items-start md:justify-between w-full">
+      <div class="flex flex-col md:block text-center md:text-left w-full">
+        <h1 class="md:underline">Exp05: gradient-cube</h1>
+        <p class="hidden sm:block mt-2 md:pr-32 lg:pr-[95vh]">
+          A vibrant gradient-driven cube shader built with <b>Three.js</b> and <b>GLSL</b>, featuring animated noise blending and real-time vertex deformation.
+        </p>
+      </div>
+      <!-- Social links mobile + tablet -->
+      <div class="flex items-center justify-center space-x-4 md:hidden mt-2">
+        <a href="https://www.x.com/rikiKDev" class="hover:underline">X</a>
+        <a href="https://www.instagram.com/rikidev_" class="hover:underline">IG</a>
+        <a href="https://www.linkedin.com/in/riki-kashyap" class="hover:underline">LN</a>
+      </div>
+    </div>
+    <!-- Social links desktop -->
+    <div class="hidden md:flex items-center space-x-4 self-end">
+      <a href="https://www.x.com/rikiKDev" class="hover:underline">X</a>
+      <a href="https://www.instagram.com/rikidev_" class="hover:underline">IG</a>
+      <a href="https://www.linkedin.com/in/riki-kashyap" class="hover:underline">LN</a>
+    </div>
+  </footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
