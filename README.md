@@ -3,7 +3,7 @@
 **A vibrant WebGL shader experiment** built using **Three.js** and **GLSL**, showcasing a dynamically deformed cube with animated gradient layers and soft real-time shadows. Featuring procedural noise-based vertex displacement, interactive **lil-gui** controls for customizing gradients, colors, and grain intensity, and a responsive full-screen canvas — all wrapped in a clean, modern interface with smooth time-based transitions.
 
 
-[![HomeSS](public/heropage.png)](https://liquid-raymarching.vercel.app/)
+[![HomeSS](public/heropage.png)](https://gradient-cube.vercel.app/)
 
 ---
 
